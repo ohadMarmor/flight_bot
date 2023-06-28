@@ -1,0 +1,65 @@
+.side-toolbar {
+    background-color: #0478c5;
+    padding: 1rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side-toolbar .conversation-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 400px; 
+  }
+
+.conversation-container h2,
+.conversation-container h3 {
+  margin-top: .2rem; 
+}
+
+  .side-toolbar .conversation-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .side-toolbar .conversation-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .side-toolbar .conversation-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .side-toolbar .conversation-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  
+  .side-toolbar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .side-toolbar .conversation-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-toolbar .conversation-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .new-conversation-button {
+    background-color: #54bcec;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: auto;
+  }
+  
+  .new-conversation-button:hover {
+    background-color: #4c4cff;
+  }
+  

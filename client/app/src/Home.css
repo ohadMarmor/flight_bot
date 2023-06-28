@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Updated to align content to the top */
+  min-height: auto; /* Updated to ensure the container expands to the full viewport height */
+  background-color: #f2f2f2;
+}
+
+.content {
+  background-color: #bceaf7;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content > :first-child {
+  font-size: 2rem; /* Updated to increase the font size */
+  margin-bottom: 1rem; /* Added margin to provide spacing between sentences */
+}
