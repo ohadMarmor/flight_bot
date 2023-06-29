@@ -1,6 +1,6 @@
 import openai
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "****"  # FILL YOUR OPENAI TOKEN TO VIEW THIS
 from services import check_submit, final_message, create_hyperlink, rate_items, get_dates
 
 
