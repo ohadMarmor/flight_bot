@@ -19,6 +19,20 @@ To use the Flights Chatbot for Sports Fans:
 3. Receive destination suggestions based on the conversation.
 4. Explore the provided links to book flights and discover events in the chosen destination.
 
+## Set Credentials
+To ensure the proper functioning of the Flights Chatbot for Sports Fans, please follow these steps to set the required credentials:
+
+Open the flight_bot_nlp.py file in your project.
+Locate the section where the OpenAI token needs to be filled. Look for a variable or configuration related to the OpenAI API.
+Replace the placeholder or empty value with your actual OpenAI token. This token authenticates your access to the OpenAI API. Make sure to keep your token secure and avoid sharing it publicly.
+Additionally, find the Kiwi links in your project code where affiliate identification is required.
+Insert your affiliate ID into the appropriate Kiwi links. This affiliate ID allows you to track and earn commissions from flight bookings made through your application.
+By setting these credentials, you will ensure that the Flights Chatbot for Sports Fans functions properly and integrates with the necessary APIs.
+
+Note: Ensure that you follow any specific instructions provided by OpenAI and Kiwi.com regarding the usage of their APIs and affiliate programs.
+
+Make sure to save the updated file with the credentials in place before running the application.
+
 ![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/824942dd-5d10-487a-bd96-d87c98f9c1dd)
 ![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/17e0356a-91dd-48c1-bcec-42c35cf3ba99)
 ![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/a6707cf2-76a7-4276-9ff4-a757965ee317)
