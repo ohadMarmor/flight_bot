@@ -33,8 +33,8 @@ Note: Ensure that you follow any specific instructions provided by OpenAI and Ki
 
 Make sure to save the updated file with the credentials in place before running the application.
 
-![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/824942dd-5d10-487a-bd96-d87c98f9c1dd)
-![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/17e0356a-91dd-48c1-bcec-42c35cf3ba99)
-![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/a6707cf2-76a7-4276-9ff4-a757965ee317)
-![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/13ad9395-6fc5-4a3b-9606-a6079821e937)
+![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/4ca208ca-5c86-4d94-a9f2-343d8039917b)
+![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/6af254ae-c948-4b12-af62-7a94a16e26fc)
+![image](https://github.com/ohadMarmor/flight_bot/assets/92535416/80e527c8-dc1d-4509-98a2-31b6b6f5154c)
+
 
