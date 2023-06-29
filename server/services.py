@@ -129,7 +129,7 @@ def get_flights(dst, f_p):
     if is_country(dst):  # the more general case, the destination is a country:
         to_dict = find_dictionary_by_key_value("name", dst)
         to_ = to_dict["alpha-2"]
-        url = f"www.kiwi.com/deep?adults={num_of_passengers}&affilid=ohadmarmortry&" \
+        url = f"www.kiwi.com/deep?adults={num_of_passengers}&affilid=kiwiToekn&" \
               f"departure={departure_date}" \
           f"&destination={to_}&origin=IL&pageName=tilesPage&return={return_date}" \
           f"&returnFromDifferentAirport=false&returnToDifferentAirport=false"
@@ -137,7 +137,7 @@ def get_flights(dst, f_p):
     elif get_us_state_by_city(dst):  # the most specific case, the destination is a city in usa:
         to_s = get_us_state_by_city(dst)
         to_ = dst.replace(' ', '-')+'_'+to_s+'_us'
-        url = f"www.kiwi.com/deep?adults={num_of_passengers}&affilid=ohadmarmortry&" \
+        url = f"www..com/deep?adults={num_of_passengers}&affilid=Toekn&" \
               f"departure={departure_date}" \
               f"&destination={to_}&origin=IL&pageName=tilesPage&return={return_date}" \
               f"&returnFromDifferentAirport=false&returnToDifferentAirport=false"
@@ -149,7 +149,7 @@ def get_flights(dst, f_p):
         else:  # means we found the destination and it is a city:
             for country in to_c:  # because a city name can be found in several countries:
                 to_ = dst+"_"+country
-                url = f"www.kiwi.com/deep?adults={num_of_passengers}&affilid=ohadmarmortry&" \
+                url = f"www..com/deep?adults={num_of_passengers}&affilid=Toekn&" \
                       f"departure={departure_date}" \
                       f"&destination={to_}&origin=IL&pageName=tilesPage&return={return_date}" \
                       f"&returnFromDifferentAirport=false&returnToDifferentAirport=false"
